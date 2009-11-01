@@ -30,7 +30,6 @@ function mdr_robots_controlpanel() {
   }
 
   $robotstxt_out = get_option('robots_txt');
-  echo $robotstxt_out;
 
   print '
   <div class="wrap">
